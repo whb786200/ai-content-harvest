@@ -1,0 +1,214 @@
+{
+  "name": "1052-OS 认知蒸馏流水线",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 10,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      },
+      "name": "周六10:00 触发",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [
+        250,
+        300
+      ],
+      "id": "f7136a6f-3d36-492a-bc5c-07c49f160127"
+    },
+    {
+      "parameters": {
+        "url": "http://119.29.168.239:8899/api/wechat/rss",
+        "method": "GET",
+        "options": {}
+      },
+      "name": "采集RSS文章",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        450,
+        300
+      ],
+      "id": "f4a5c0cf-51df-41bd-b30c-91b3570258f9"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 解析RSS结果，提取文章列表\nconst items = $input.all();\nconst articles = [];\n\nfor (const item of items) {\n  const data = item.json;\n  if (data.articles && Array.isArray(data.articles)) {\n    for (const article of data.articles) {\n      articles.push({\n        title: article.title || '',\n        url: article.url || '',\n        pub_time: article.pub_time || '',\n        source: article.source || 'unknown'\n      });\n    }\n  }\n}\n\nreturn articles.map(a => ({ json: a }));"
+      },
+      "name": "解析文章列表",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        650,
+        300
+      ],
+      "id": "d9076ce3-fffd-4430-9df7-e1994304b53f"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.url }}",
+        "method": "GET",
+        "options": {
+          "redirect": "follow"
+        }
+      },
+      "name": "抓取文章内容",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        850,
+        300
+      ],
+      "id": "e494aaee-335a-49ab-a2f7-197594aba198"
+    },
+    {
+      "parameters": {
+        "jsCode": "// HTML转Markdown\nconst items = $input.all();\nconst turndownService = new TurndownService();\n\nreturn items.map(item => {\n  const html = item.json.content || item.json.body || '';\n  const md = turndownService.turndown(html);\n  return {\n    json: {\n      ...item.json,\n      markdown: md,\n      file_name: `[${new Date().toISOString().slice(0,10).replace(/-/g,'')}]${item.json.title}.md`\n    }\n  };\n});"
+      },
+      "name": "HTML→Markdown",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1050,
+        300
+      ],
+      "id": "a8da7362-b031-4006-92c0-73c9e644cc59"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 调用LLM进行认知蒸馏\nconst items = $input.all();\nconst apiUrl = 'https://api.minimaxi.com/v1/text/chatcompletion_v2';\nconst apiKey = process.env.MINIMAX_API_KEY;\n\n// 这里用HTTP Request节点替代，本节点只做数据准备\nreturn items.map(item => {\n  const prompt = `请对以下文章进行认知蒸馏，提取：1.工具链 2.操作流 3.提示词 4.认知框架\\n\\n文章：${item.json.markdown.slice(0, 4000)}`;\n  return {\n    json: {\n      ...item.json,\n      distill_prompt: prompt\n    }\n  };\n});"
+      },
+      "name": "准备蒸馏Prompt",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1250,
+        200
+      ],
+      "id": "b9bc2488-802c-475c-bd4d-c5b7b40528e7"
+    },
+    {
+      "parameters": {
+        "url": "https://api.siliconflow.cn/v1/chat/completions",
+        "method": "POST",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpHeaderAuth",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "jsonBody": "={{ {\\n  \"model\": \"Qwen/Qwen3-30B-A3B\",\\n  \"messages\": [{\"role\": \"user\", \"content\": $json.distill_prompt}],\\n  \"temperature\": 0.3\\n} }}",
+        "options": {}
+      },
+      "name": "LLM认知蒸馏",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        1450,
+        200
+      ],
+      "id": "42dc97a3-04b6-4829-9de1-72fac889ace2"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $json.file_name }}",
+        "dataMode": "base64",
+        "data": "={{ Buffer.from($json.markdown).toString('base64') }}"
+      },
+      "name": "保存原始MD",
+      "type": "n8n-nodes-base.writeBinaryFile",
+      "typeVersion": 1,
+      "position": [
+        1250,
+        400
+      ],
+      "id": "b24b4086-a111-488d-91c1-c43b535fe371"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 12,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      },
+      "name": "周六12:00 蒸馏",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [
+        250,
+        600
+      ],
+      "id": "93a7ab35-361a-42b6-89b4-4250b6207267"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 14,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      },
+      "name": "周六14:00 合并",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [
+        250,
+        900
+      ],
+      "id": "dbd667d6-90d4-4270-b0e0-5cfcd97690a6"
+    }
+  ],
+  "connections": {
+    "周六10:00 触发": {
+      "main": [
+        [
+          {
+            "node": "采集RSS文章",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "采集RSS文章": {
+      "main": [
+        [
+          {
+            "node": "解析文章列表",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "解析文章列表": {
+      "main": [
+        [
+          {
+            "node": "抓取文章内容",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "id": "b8a78f16-476a-481f-bdc2-04f16f4860d3",
+  "tags": [],
+  "meta": {}
+}

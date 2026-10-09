@@ -1,0 +1,870 @@
+{
+  "harvested_urls": {
+    "4c9b95473031": {
+      "url": "https://mp.weixin.qq.com/s/CU0Mx8VXQY9LXf3hZ3qKOA",
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\[202605172032].md",
+      "harvested_at": "2026-05-17T20:32:12.752968",
+      "distilled": true,
+      "char_count": 111,
+      "distilled_at": "2026-05-23T12:00:00",
+      "note": "SKIPPED - garbled content, no usable text"
+    },
+    "aPu59MxnKFF7": {
+      "url": "https://mp.weixin.qq.com/s/aPu59MxnKFF76CY5zNTj9w",
+      "title": "AI+中式养生短视频",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260516-每日AIGC-中式养生短视频.md",
+      "harvested_at": "2026-05-23T10:08:49.338181",
+      "distilled": true,
+      "distilled_at": "2026-05-23T12:00:00",
+      "char_count": 873,
+      "status": "enriched"
+    },
+    "20260516-01f": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-01fish-tech-radar.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-AI前": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-AI前沿短裤哥-Tailscale-DERP.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-AI生": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-AI生态星球-AiToEarn.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-AI趣": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-AI趣实验-awesome-design-md.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-Cc的": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-Cc的AI轻百科-WeWrite.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-Cod": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-Coding派-pm-skills.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-Git": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-GitHub精选-free-ride.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-一泽E": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-一泽Eze-Web-Access.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-产品经": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-产品经理用AI-llm-wiki-skill.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-何三笔": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-何三笔记-graphify知识图谱.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-凌小添": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-凌小添-PromptHub.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-拂晓A": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-拂晓AI-wechat-cli.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-摩的A": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-摩的AI-一人公司信息差.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-杨浦老": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-杨浦老苏-CODE-SERVER.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-极客L": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-极客Labs-AI短视频全家桶.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-每日A": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-每日AIGC-OiiOii+Seedance2.0.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-深思S": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-深思SenseAI-AI营销Agent.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-白羊武": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-白羊武士-KB2.0知识库.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-科研碎": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-科研碎片-GitHub-Skill项目整理.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-红鱼A": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-红鱼AI-social-auto-upload.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-绘度空": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-绘度空间-自媒体9开源项目.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-老章很": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-老章很忙-Karpathy知识管理.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-花叔-": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-花叔-Seedance2.0.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-论文狗": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-论文狗-2948份笔记复利.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-越玩越": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-越玩越无聊-公众号发布Skill.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-非碳基": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v3\\20260516-非碳基观察-工程行业SKILLS指南.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-AI揽": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v4\\20260516-AI揽阅-开源平替17万Star.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-V二君": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v4\\20260516-V二君-Obsidian-LLM-Wiki插件.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-尹浩伊": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v4\\20260516-尹浩伊-Basjoo-AI客服.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-徐小夕": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v4\\20260516-徐小夕-Jellyfish-AI短剧工业化.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260516-数字生": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\v4\\20260516-数字生命卡兹克-AIHOT热点监控.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260530-Git": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260530-GitHub-AwesomeAI代理2026全景.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260530-Kno": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260530-Knowmax-AI知识管理工具Top13.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260530-数字生": {
+      "title": "",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260530-数字生命卡兹克-AIHOT热点监控系统.md",
+      "distilled": true,
+      "distilled_at": "2026-05-30T12:50:40.812945",
+      "note": "from v3/v4/root subdir"
+    },
+    "20260606-Seedance2API": {
+      "title": "2026年AI视频生成完全指南",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260606-Seedance2API-AI视频生成完全指南2026.md",
+      "distilled": true,
+      "distilled_at": "2026-06-06T19:41:00",
+      "char_count": 2180
+    },
+    "20260606-NxCode": {
+      "title": "Obsidian AI第二大脑完整指南2026",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260606-NxCode-Obsidian-AI第二大脑完整指南2026.md",
+      "distilled": true,
+      "distilled_at": "2026-06-06T19:41:00",
+      "char_count": 3050
+    },
+    "20260606-xiaohuangyu": {
+      "title": "Obsidian + Claude Code AI第二大脑实战",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260606-xiaohuangyu-Obsidian-ClaudeCode-AI第二大脑实战.md",
+      "distilled": true,
+      "distilled_at": "2026-06-06T19:41:00",
+      "char_count": 1580
+    },
+    "20260606-cnblogs": {
+      "title": "2026提示词工程完全指南",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260606-cnblogs-2026提示词工程完全指南.md",
+      "distilled": true,
+      "distilled_at": "2026-06-06T19:41:00",
+      "char_count": 2680
+    },
+    "20260606-juejin": {
+      "title": "Obsidian + AI 打造第二大脑实战",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260606-juejin-Obsidian-AI打造第二大脑实战.md",
+      "distilled": true,
+      "distilled_at": "2026-06-06T19:41:00",
+      "char_count": 2720
+    },
+    "20260613-buaa26wujie": {
+      "title": "智源大会悟界大模型+FlagOS2.1",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-06-12/doc-iniceccp0196871.shtml",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260613-智源大会-悟界大模型与FlagOS2.1.md",
+      "harvested_at": "2026-06-13T09:51:00",
+      "distilled": true,
+      "distilled_at": "2026-06-13T11:56:00"
+    },
+    "20260613-aibotgo26brain": {
+      "title": "AI第二大脑构建指南2026",
+      "url": "https://aibotgo.net/blog/ai-second-brain-knowledge-2026/",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260613-AIBotGo-AI第二大脑构建指南2026.md",
+      "harvested_at": "2026-06-13T09:51:00",
+      "distilled": true,
+      "distilled_at": "2026-06-13T11:56:00"
+    },
+    "20260613-gcshuzi26": {
+      "title": "2026工程数智大会AI建筑黑科技",
+      "url": "https://news.qq.com/rain/a/20260603A09CMM00",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260613-2026工程数智大会-AI建筑黑科技.md",
+      "harvested_at": "2026-06-13T09:51:00",
+      "distilled": true,
+      "distilled_at": "2026-06-13T11:56:00"
+    },
+    "20260613-baiduagent26": {
+      "title": "AI Agent技术演进六大趋势2026",
+      "url": "https://developer.baidu.com/article/detail.html?id=7002573",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260613-百度开发者-AI Agent技术演进六大趋势2026.md",
+      "harvested_at": "2026-06-13T09:51:00",
+      "distilled": true,
+      "distilled_at": "2026-06-13T11:56:00"
+    },
+    "20260620-sohu26war": {
+      "title": "2026年6月AI巨头混战周报",
+      "url": "https://www.sohu.com/a/1035397029_122893087",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260620-搜狐科技-2026年6月AI巨头混战周报.md",
+      "harvested_at": "2026-06-20T09:49:00",
+      "distilled": true,
+      "distilled_at": "2026-06-20T10:15:00"
+    },
+    "20260620-sohu26shuffle": {
+      "title": "2026年6月AI模型格局大洗牌",
+      "url": "https://www.sohu.com/a/1037991307_122893087",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260620-搜狐科技-2026年6月AI模型格局大洗牌.md",
+      "harvested_at": "2026-06-20T09:49:00",
+      "distilled": true,
+      "distilled_at": "2026-06-20T10:15:00"
+    },
+    "20260620-清华大学": {
+      "title": "智能体安全研究报告2026",
+      "url": "https://www.sohu.com/a/1034036233_468661",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260620-清华大学-智能体安全研究报告2026.md",
+      "harvested_at": "2026-06-20T13:55:00",
+      "distilled": true,
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "20260620-搜狐AI全景": {
+      "title": "2026年6月AI全景：智能体时代全面开启",
+      "url": "https://www.sohu.com/a/1035472711_122558976",
+      "file": "D:\\1052-OS\\brain\\raw_harvest\\20260620-搜狐科技-2026年6月AI全景智能体时代.md",
+      "harvested_at": "2026-06-20T13:50:00",
+      "distilled": true,
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "63cb2538885c": {
+      "url": "https://www.sohu.com/a/1044027342_584838",
+      "title": "2026年6月AI产品创新与商业简报",
+      "file": "D:/1052-OS/brain/raw_harvest/20260704-搜狐科技-2026年6月AI产品创新与商业简报.md",
+      "harvested_at": "2026-07-04T09:14:08.329222",
+      "distilled": true,
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "bed18557e639": {
+      "url": "https://cloud.tencent.com/developer/article/2654878",
+      "title": "2026RAG全景从大模型到Agent记忆中枢",
+      "file": "D:/1052-OS/brain/raw_harvest/20260704-腾讯云-2026RAG全景从大模型到Agent记忆中枢.md",
+      "harvested_at": "2026-07-04T09:14:08.329349",
+      "distilled": true,
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "65ba8f3f9a2a": {
+      "url": "https://www.sohu.com/a/1037009022_121123989",
+      "title": "2026年12款AI视频工具全面对比",
+      "file": "D:/1052-OS/brain/raw_harvest/20260704-搜狐科技-2026年12款AI视频工具全面对比.md",
+      "harvested_at": "2026-07-04T09:14:08.329354",
+      "distilled": true,
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "8f7a1ed09dbd": {
+      "url": "https://www.news.cn/digital/20260604/9fd417bba7c74406afe49035bc5700e9/c.html",
+      "title": "建筑业智能建造加速落地AI驱动创新",
+      "file": "D:/1052-OS/brain/raw_harvest/20260704-新华网-建筑业智能建造加速落地AI驱动创新.md",
+      "harvested_at": "2026-07-04T09:14:08.329359",
+      "distilled": true,
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "3ed7628d62aa": {
+      "url": "https://new.qq.com/rain/a/20260810A07SS600",
+      "title": "实测千问开放平台帮你“干活”，智能体生态战进入“履约”阶段",
+      "file": "D:/1052-OS/brain/raw_harvest/20260810-腾讯新闻-实测千问开放平台帮你干活智能体生态战进入履约阶段.md",
+      "author": "新京报贝壳财经记者 程子姣",
+      "harvested_at": "2026-08-15T09:57:56.703562",
+      "distilled": true,
+      "char_count": 2646,
+      "source": "web_fetch",
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "7e44c473cad8": {
+      "url": "https://caijing.chinadaily.com.cn/a/202608/06/WS6a73fbcda310d709c2fc1d6c.html",
+      "title": "视比特发布“翔睿”智能体平台：让AI踏踏实实帮一线员工干活",
+      "file": "D:/1052-OS/brain/raw_harvest/20260806-中国日报-视比特发布翔睿智能体平台.md",
+      "author": "东方网",
+      "harvested_at": "2026-08-15T09:57:56.703562",
+      "distilled": true,
+      "char_count": 1477,
+      "source": "web_fetch",
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "2e456c91d19d": {
+      "url": "https://x7peeps.com/AI/04-RAG%E4%B8%8E%E7%9F%A5%E8%AF%86%E5%BA%93/Agentic-RAG%E8%AE%A9Agent%E9%A9%B1%E5%8A%A8%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90%E7%9A%84%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5",
+      "title": "Agentic RAG：让 Agent 驱动检索增强生成的架构演进与工程实践",
+      "file": "D:/1052-OS/brain/raw_harvest/20260814-x7peeps-Agentic RAG让Agent驱动检索增强生成的架构演进与工程实践.md",
+      "author": "x7peeps",
+      "harvested_at": "2026-08-15T09:57:56.703562",
+      "distilled": true,
+      "char_count": 5868,
+      "source": "web_fetch",
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "1e48b31009ec": {
+      "url": "https://www.18183.com/gonglue/202608/2krnrd7b.html",
+      "title": "AI视频工具对比评测 2026年主流AI视频工具深度对比",
+      "file": "D:/1052-OS/brain/raw_harvest/20260807-18183-AI视频工具对比评测2026年主流AI视频工具深度对比.md",
+      "author": "18183",
+      "harvested_at": "2026-08-15T09:57:56.703562",
+      "distilled": true,
+      "char_count": 1316,
+      "source": "web_fetch",
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "552fac53059f": {
+      "url": "https://www.mohurd.gov.cn/xinwen/dfxx/art/2026/art_faf2f775be6e4b65bb97bb31eab0a505.html",
+      "title": "陕西加快形成千亿元级智能建造产业",
+      "file": "D:/1052-OS/brain/raw_harvest/20260804-住建部-陕西加快形成千亿元级智能建造产业.md",
+      "author": "中国建设报 秦岩",
+      "harvested_at": "2026-08-15T09:57:56.703562",
+      "distilled": true,
+      "char_count": 1736,
+      "source": "web_fetch",
+      "distilled_at": "2026-08-15T12:00:00"
+    },
+    "5aafce6a8909": {
+      "url": "https://new.qq.com/rain/a/20260821A02DDG00",
+      "title": "AI Agent动态日报（币安Agent OS到支付宝AHA协议）",
+      "filename": "20260821-腾讯网-AI Agent动态日报（币安Agent OS到支付宝AHA协议）.md",
+      "harvested_at": "2026-08-22T09:54:53.130148",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "f978518c174e": {
+      "url": "https://juejin.cn/post/7675686590932484137",
+      "title": "RAG技术演进与架构（Graph RAG vs Agentic RAG）",
+      "filename": "20260820-掘金-RAG技术演进与架构（Graph RAG vs Agentic RAG）.md",
+      "harvested_at": "2026-08-22T09:54:53.130148",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "544b67bd6aac": {
+      "url": "https://www.sina.cn/news/detail/5332495105002292.html",
+      "title": "AI短剧内容创作新机遇与视频模型迭代",
+      "filename": "20260816-新浪-AI短剧内容创作新机遇与视频模型迭代.md",
+      "harvested_at": "2026-08-22T09:54:53.130148",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "b4d5633de9b4": {
+      "url": "https://www.mohurd.gov.cn/xinwen/dfxx/art/2026/art_08deabf80caf4c53a7341daedbddb992.html",
+      "title": "天津升级施工图数字化服务BIM与AI智能审查",
+      "filename": "20260819-住建部-天津升级施工图数字化服务BIM与AI智能审查.md",
+      "harvested_at": "2026-08-22T09:54:53.130148",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "4089fea646cd": {
+      "url": "https://www.cnblogs.com/know-data/p/22592369",
+      "title": "企业级RAG知识库技术架构与组件选型2026版",
+      "filename": "20260820-博客园-企业级RAG知识库技术架构与组件选型2026版.md",
+      "harvested_at": "2026-08-22T09:54:53.130148",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "agentcollab0818": {
+      "url": "https://aiagentstore.ai/ai-agent-news/topic/agent-collaboration/2025-08-19",
+      "title": "Agent Collaboration Agentic AI News Week Ending 2026-08-18",
+      "filename": "20260822-aiagentstore-Agent协作周报2026-08-18.md",
+      "harvested_at": "2026-08-22T10:13:00.000000",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "masarch2608": {
+      "url": "https://mcp.csdn.net/6a857fc010ee7a33f29cd642.html",
+      "title": "多智能体协作架构：从单Agent到多Agent协同的技术演进",
+      "filename": "20260822-CSDN-多智能体协作架构从单Agent到多Agent.md",
+      "harvested_at": "2026-08-22T10:13:00.000000",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "stdprot2608": {
+      "url": "https://www.boaoai.cn/news/2026-08-07-ai-agent-standardization-plugins-mcp-protocol",
+      "title": "AI智能体进入标准化协议元年：OpenAI Agent Plugins 8/7首发",
+      "filename": "20260822-铂傲智能-AI智能体标准化协议元年AgentPlugins.md",
+      "harvested_at": "2026-08-22T10:13:00.000000",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "ragroutes2608": {
+      "url": "https://www.zhidieyun.com/blog/company-new-ai-rag-etc",
+      "title": "企业级新一代RAG技术路线：直面生产环境痛点、可落地完整工程方案",
+      "filename": "20260822-织蝶云-企业级新一代RAG技术路线生产环境痛点.md",
+      "harvested_at": "2026-08-22T10:13:00.000000",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "agraphrag2608": {
+      "url": "https://www.syuthd.com/2026/08/mastering-agentic-graphrag-building.html",
+      "title": "Mastering Agentic GraphRAG with LangGraph and Neo4j",
+      "filename": "20260822-SYUTHD-AgenticGraphRAG-LangGraph-Neo4j实践.md",
+      "harvested_at": "2026-08-22T10:13:00.000000",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "1f8e83122e28": {
+      "url": "https://new.qq.com/rain/a/20260820A08ZGX00",
+      "title": "腾讯混元3发布并深度嵌入微信生态",
+      "filename": "20260822-腾讯网-腾讯混元3发布并深度嵌入微信生态.md",
+      "harvested_at": "2026-08-22T10:44:47.474587",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "48ae25d85946": {
+      "url": "https://www.zhengruan.com/news/753512",
+      "title": "腾讯混元Hy3正式发布技术细节",
+      "filename": "20260822-正软-腾讯混元Hy3正式发布技术细节.md",
+      "harvested_at": "2026-08-22T10:44:47.474587",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "c1cd2117d95c": {
+      "url": "https://cloud.tencent.com/developer/article/2728284",
+      "title": "Claude Code vs Cursor vs CodeBuddy横评",
+      "filename": "20260822-腾讯云-Claude Code vs Cursor vs CodeBuddy横评.md",
+      "harvested_at": "2026-08-22T10:44:47.474587",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "9686ecd767ac": {
+      "url": "https://x7peeps.com/AI/03-Agent架构与框架生态/Agent记忆架构2026从认知科学到生产级实现的技术全景/index.html",
+      "title": "Agent记忆架构2026从认知科学到生产级实现",
+      "filename": "20260822-x7peeps-Agent记忆架构2026从认知科学到生产级实现.md",
+      "harvested_at": "2026-08-22T10:44:47.474587",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "346130be288c": {
+      "url": "https://finance.sina.com.cn/wm/2026-08-21/doc-inipaenv1672862.shtml",
+      "title": "中国铁建机器人组团参展世界机器人大会",
+      "filename": "20260822-新浪财经-中国铁建机器人组团参展世界机器人大会.md",
+      "harvested_at": "2026-08-22T10:44:47.474587",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-22T18:16:12"
+    },
+    "6822e46436f4": {
+      "url": "https://new.qq.com/rain/a/20260827A0898M00?refer=cp_1009",
+      "title": "混元动态8月27日（Hy3全球前三与汤道生AI战略）",
+      "filename": "20260827-腾讯网-混元动态8月27日（Hy3全球前三与汤道生AI战略）.md",
+      "harvested_at": "2026-08-28T17:27:45.205551",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00"
+    },
+    "cd4906187f26": {
+      "url": "https://byteiota.com/a2a-and-mcp-are-now-under-one-roof-what-aaif-means?ref=feedbagel.com",
+      "title": "A2A与MCP并入Linux基金会AAIF",
+      "filename": "20260828-byteiota-A2A与MCP并入Linux基金会AAIF.md",
+      "harvested_at": "2026-08-28T17:27:45.205551",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00"
+    },
+    "236891c6e36e": {
+      "url": "https://cloudproinc.com.au/index.php/2026/08/28/microsoft-agent-framework-production-guide-for-a2a-mcp-governance",
+      "title": "Microsoft Agent Framework生产指南A2A与MCP治理",
+      "filename": "20260828-cloudproinc-Microsoft Agent Framework生产指南A2A与MCP治理.md",
+      "harvested_at": "2026-08-28T17:27:45.205551",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00"
+    },
+    "5e368d533027": {
+      "url": "https://wpnews.pro/news/ingest-time-compilation-takes-on-query-time-rag-and-agentic-retrieval-meets-its",
+      "title": "RAG摄取时编译与GraphRAG研究新进展",
+      "filename": "20260824-wpnews.pro-RAG摄取时编译与GraphRAG研究新进展.md",
+      "harvested_at": "2026-08-28T17:27:45.205551",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00"
+    },
+    "f702ee41b590": {
+      "url": "https://www.toutiao.com/article/7678712830396318246/",
+      "title": "Wan3.0上线Sora退场国产四强分战场",
+      "filename": "20260827-今日头条-Wan3.0上线Sora退场国产四强分战场.md",
+      "harvested_at": "2026-08-28T17:27:45.205551",
+      "source": "web_fetch",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00"
+    },
+    "f46c6cef119b": {
+      "url": "https://myaiguide.co/news/builders-weekly-20260828",
+      "title": "AI编程三巨头周报（Cursor/Claude Code/Codex 95项更新）",
+      "file": "D:E2-OS\brain\raw_harvest\\20260829-myaiguide-AI编程三巨头周报Cursor-ClaudeCode-Codex.md",
+      "harvested_at": "2026-08-29T10:16:44.936320",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00",
+      "source": "web_fetch",
+      "filename": "20260829-myaiguide-AI编程三巨头周报Cursor-ClaudeCode-Codex.md"
+    },
+    "765bc1a9158e": {
+      "url": "https://news.qq.com/rain/a/20260828A093EG00",
+      "title": "泰安市《建筑业数智化转型工作方案》(泰政办字〔2026〕7号)",
+      "file": "D:E2-OS\brain\raw_harvest\\20260829-腾讯新闻-泰安市建筑业数智化转型工作方案.md",
+      "harvested_at": "2026-08-29T10:16:44.936320",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00",
+      "source": "web_fetch",
+      "filename": "20260829-腾讯新闻-泰安市建筑业数智化转型工作方案.md"
+    },
+    "e0edcefbdd4a": {
+      "url": "https://kaola.blog.csdn.net/article/details/164112208",
+      "title": "2026 国内外 AI 短视频/短剧生成模型全面横向对比",
+      "file": "D:E2-OS\brain\raw_harvest\\20260829-CSDN-2026国内外AI短视频模型全面横向对比.md",
+      "harvested_at": "2026-08-29T10:16:44.936320",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00",
+      "source": "web_fetch",
+      "filename": "20260829-CSDN-2026国内外AI短视频模型全面横向对比.md"
+    },
+    "0811cb4c0b19": {
+      "url": "https://www.toutiao.com/article/7678113876637925923",
+      "title": "智能建造从加分项变成必答题（住建部69案例+广州120分+无锡18任务+9部委数据安全整治）",
+      "file": "D:E2-OS\brain\raw_harvest\\20260829-今日头条-智能建造从加分项变成必答题.md",
+      "harvested_at": "2026-08-29T10:16:44.936320",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00",
+      "source": "web_fetch",
+      "filename": "20260829-今日头条-智能建造从加分项变成必答题.md"
+    },
+    "64a5fa95cba2": {
+      "url": "https://m.sohu.com/a/1067978120_122066679",
+      "title": "腾讯AI慢了?汤道生深夜回应:马拉松才跑完第一公里",
+      "file": "D:E2-OS\brain\raw_harvest\\20260829-搜狐-腾讯AI慢了汤道生深夜回应.md",
+      "harvested_at": "2026-08-29T10:16:44.936320",
+      "distilled": true,
+      "distilled_at": "2026-08-29T12:01:00",
+      "source": "web_fetch",
+      "filename": "20260829-搜狐-腾讯AI慢了汤道生深夜回应.md"
+    }
+  },
+  "module_index": {
+    "current_max": 178,
+    "last_merge": "2026-08-22T18:16:12",
+    "version": "v11.9",
+    "sk_md_count": 178
+  },
+  "last_distill_run": "2026-08-29T12:01:00",
+  "last_merge_run": "2026-08-22T18:16:12",
+  "merge_summary": {
+    "total_distilled_files": 5,
+    "merged_into_existing": 5,
+    "new_modules_added": 0,
+    "new_module_range": "",
+    "strategy": "5处追加更新（无新模块）：#170 建筑业智能建造·天津BIM审查 / #171 智能体时代全景·Agent动态日报 / #174 AI视频工具·AI短剧与模型迭代 / #175 RAG全景·企业级知识库架构 / #178 Agentic RAG·Graph RAG对比"
+  },
+  "distill_summary": {
+    "total_raw_files": 114,
+    "valid": 113,
+    "distilled": 119,
+    "skipped_garbled": 1,
+    "method": "LLM cognitive distillation (in-chat)"
+  },
+  "target_feeds": [
+    {
+      "name": "数字生命卡兹克",
+      "type": "wechat_sogou",
+      "wechat_id": "数字生命卡兹克",
+      "rss_fallback": "https://rsshub.app/wechat/mp/profile/卡兹克ID",
+      "keywords": [
+        "AI",
+        "Agent",
+        "Skill",
+        "认知蒸馏",
+        "数字生命"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "林小卫很行",
+      "type": "wechat_sogou",
+      "wechat_id": "林小卫很行",
+      "rss_fallback": "https://rsshub.app/wechat/mp/profile/林小卫ID",
+      "keywords": [
+        "效率",
+        "AI工具",
+        "工作流",
+        "Obsidian"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "工程智库",
+      "type": "wechat_sogou",
+      "wechat_id": "工程智库",
+      "rss_fallback": "",
+      "keywords": [
+        "工程",
+        "数字化",
+        "BIM",
+        "项目管理"
+      ],
+      "status": "active"
+    }
+  ],
+  "llm_settings": {
+    "provider": "hunyuan",
+    "base_url": "https://api.hunyuan.cloud.tencent.com/v1",
+    "model": "hunyuan-turbo",
+    "max_tokens": 4096,
+    "temperature": 0.3,
+    "distill_prompt_template": "cognitive_distillation"
+  },
+  "obsidian_sync": {
+    "enabled": true,
+    "vault_path": "E:\\Obsidian\\7529工程知识库",
+    "last_sync": "2026-07-04T09:33:00",
+    "sync_raw": true,
+    "sync_distilled": true,
+    "sync_skill": true,
+    "sync_dirs": {
+      "raw": "05-Brain\\raw_harvest",
+      "distilled": "05-Brain\\distilled",
+      "skill": "05-Brain\\SKILL.md"
+    },
+    "note": "vault_path修正：原指向C:\\Users\\19586\\Documents\\Obsidian Vault不存在，实际库在E:\\Obsidian\\7529工程知识库"
+  },
+  "harvest_settings": {
+    "http_timeout": 30,
+    "min_content_length": 100,
+    "max_articles_per_feed": 20,
+    "rate_limit_seconds": 2,
+    "wechat_engine": "Chyroc/WechatSogou v4.5.4",
+    "primary_method": "wechat_sogou",
+    "fallback_method": "rss+requests",
+    "mini_max_web_crawl": {
+      "enabled": false,
+      "note": "待集成MiniMax LLM API网页爬取"
+    }
+  },
+  "created_at": "2026-05-17T20:00:00",
+  "updated_at": "2026-08-28T17:27:45.205551",
+  "last_harvest_run": "2026-08-28T17:27:45.205551",
+  "harvest_issues": {
+    "url_mismatches": 5,
+    "url_conflicts": 1,
+    "fetch_failures": 1,
+    "successful_enrichments": 1,
+    "notes": "Multiple URL mapping errors detected. Only 每日AIGC-养生 enriched successfully via web_fetch."
+  },
+  "incremental_rules": {
+    "task": "增量收割：仅收割 harvested_urls 中不存在的新 URL，避免重复",
+    "model_selection": "hunyuan-turbo",
+    "dedup": {
+      "enabled": true,
+      "method": "sha256(url)[:12] 比对 harvested_urls 键",
+      "action_on_duplicate": "skip"
+    },
+    "search": {
+      "engine": "WebSearch",
+      "freshness": "d7",
+      "keyword_groups": [
+        [
+          "混元大模型",
+          "Hy3",
+          "混元3",
+          "腾讯AI"
+        ],
+        [
+          "AI Agent",
+          "多智能体",
+          "MCP",
+          "A2A协议",
+          "Agent记忆"
+        ],
+        [
+          "RAG",
+          "知识库",
+          "GraphRAG",
+          "Agentic RAG",
+          "上下文工程"
+        ],
+        [
+          "AI编程",
+          "代码智能体",
+          "Claude Code",
+          "Cursor",
+          "CodeBuddy"
+        ],
+        [
+          "AI视频",
+          "可灵",
+          "即梦",
+          "Seedance",
+          "短剧"
+        ],
+        [
+          "智能建造",
+          "BIM",
+          "AI审查",
+          "建筑机器人",
+          "工程数字化"
+        ]
+      ],
+      "max_groups_per_run": 4
+    },
+    "fetch": {
+      "method": "WebFetch",
+      "min_content_length": 300
+    },
+    "write": {
+      "dir": "brain/raw_harvest",
+      "filename_pattern": "YYYYMMDD-来源-标题.md",
+      "front_matter": [
+        "source",
+        "url",
+        "published",
+        "harvested_at",
+        "harvest_method",
+        "model_selection",
+        "tags"
+      ]
+    },
+    "log": {
+      "file": "brain/harvest_log.csv",
+      "columns": [
+        "timestamp",
+        "url_hash",
+        "url",
+        "title",
+        "status",
+        "note"
+      ]
+    },
+    "max_articles_per_run": 5,
+    "skip_already_distilled_in_run": false,
+    "updated_at": "2026-08-22T10:44:47.474587"
+  }
+}
